@@ -12,7 +12,7 @@ namespace AspNetCoreError.Controllers
 
         public IActionResult Index()
         {
-            throw new ApplicationException("Catch me if you can !!!");
+            throw new Exception("Catch me if you can !!!");
             return View();
         }
 
