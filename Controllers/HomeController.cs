@@ -9,7 +9,6 @@ namespace AspNetCoreError.Controllers
 {
     public class HomeController : Controller
     {
-
         public IActionResult Index()
         {
             throw new Exception("Catch me if you can !!!");
