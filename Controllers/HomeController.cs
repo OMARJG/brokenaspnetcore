@@ -10,12 +10,6 @@ namespace AspNetCoreError.Controllers
     public class HomeController : Controller
     {
 
-        ILogger _logger = null;
-        public HomeController(ILogger logger)
-        {
-            _logger = logger;
-        }
-
         public IActionResult Index()
         {
             return View();
